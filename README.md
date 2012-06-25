@@ -8,5 +8,6 @@ make build
 usage:
 to encode:
 ./encode -bwt [inputfile] [outputfile]
+
 to decode:
 ./encode -ibwt [inputfile] [outputfile]
