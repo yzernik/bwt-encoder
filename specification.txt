@@ -1,0 +1,22 @@
+Specifications
+-----------------
+Your program should take three arguments:
+
+1) a flag indicating whether to encode (-bwt) or decode (-ibwt)
+2) an input fasta file
+3) an output fasta file
+
+Example
+-----------------
+Using the supplied fasta file (sonnet1.fasta), the following command-line options should be supported.
+
+-bwt sonnet1.fasta sonnet1.bwt.fasta
+-ibwt sonnet1.bwt.fasta sonnet1.ibwt.fasta
+
+And using the command lines should produce fasta files (sonnet1.bwt.fasta and sonnet1.ibwt.fasta) that are identical (disregarding comment line) to those supplied. Moreover, you should check that sonnet1.ibwt.fasta is identical (disregarding comment line) to sonnet1.fasta.
+
+Caveats
+-----------------
+1) Please do your best to make your program robust to trivialities such as empty lines, or lack thereof, following the last (non-empty) line of the fasta file.
+2) Please wrap your output fasta files at exactly 80 characters. That is, each line except the comment line and the final (non-empty) line of the output fasta file should contain 80 characters. This allows us to use simple tools like diff to check correctness.
+3) Your implementation should be case sensitive, with upper-case letters lexicographically smaller than lower-case letters
