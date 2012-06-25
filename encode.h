@@ -1,3 +1,11 @@
+/**
+ * @file   encode.h
+ * @Author Jonathan Zernik
+ * @date   2012
+ * @brief  Read a FASTA file and
+ * encode or decode it.
+ */
+
 #ifndef ENCODE_H
 #define ENCODE_H
 

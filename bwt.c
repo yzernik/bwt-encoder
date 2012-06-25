@@ -1,3 +1,12 @@
+/**
+ * @file   bwt.c
+ * @Author Jonathan Zernik
+ * @date   2012
+ * @brief  Burrows Wheeler Transform
+ * encode and decode functions.
+ */
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>

@@ -1,3 +1,12 @@
+/**
+ * @file   ks.c
+ * @Author Jonathan Zernik
+ * @date   2012
+ * @brief  Implementation of the KS
+ * Algorithm for direct suffix sorting.
+ */
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>

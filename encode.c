@@ -1,10 +1,17 @@
+/**
+ * @file   encode.c
+ * @Author Jonathan Zernik
+ * @date   2012
+ * @brief  Read a FASTA file and
+ * encode or decode it.
+ */
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 
 #include "bwt.h"
 #include "encode.h"
-
 
 
 int main(int argc, char *argv[])

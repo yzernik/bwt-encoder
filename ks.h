@@ -1,3 +1,12 @@
+/**
+ * @file   ks.h
+ * @Author Jonathan Zernik
+ * @date   2012
+ * @brief  Implementation of the KS
+ * Algorithm for direct suffix sorting.
+ */
+
+
 #ifndef KS_H
 #define KS_H
 

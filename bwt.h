@@ -1,3 +1,12 @@
+/**
+ * @file   bwt.h
+ * @Author Jonathan Zernik
+ * @date   2012
+ * @brief  Burrows Wheeler Transform
+ * encode and decode functions.
+ */
+
+
 #ifndef BWT_H
 #define BWT_H
 
